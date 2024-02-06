@@ -1,0 +1,197 @@
+[
+  {
+    "questionText": "How are Salesforce Functions invoked?",
+    "answers": [ "When you have a lot of users", "When you grant a function access to the org", "When an admin clicks Start Function in Setup", "When code, or a low-code solution, running in a scratch, sandbox or production org invokes a function" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or False: Salesforce Admins cannot create new user accounts without the 'Manage Users' permission.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which feature allows Salesforce Admins to automate repetitive tasks?",
+    "answers": [ "Workflow Rules", "Process Builder", "Apex Triggers", "Visualforce Pages" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What is NOT a standard Salesforce object?",
+    "answers": [ "Leads", "Contacts", "Opportunities", "Transactions" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or False: Changing the field type of a custom field from Text to Number will cause data loss if the field contains non-numeric values.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "What is the primary purpose of a Controller in Apex?",
+    "answers": [ "To store data", "To interface between the model and the view", "To handle web service requests", "To manage database transactions" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which of these is NOT a valid Apex collection type?",
+    "answers": [ "List", "Map", "Set", "Array" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or False: Apex Triggers can be written to execute before and after changes to records.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which SOQL query is correctly written to retrieve all Contacts related to an Account with the Name 'Acme'?",
+    "answers": [ "SELECT Name FROM Contact WHERE Account.Name = 'Acme'", "FIND 'Acme' IN Account.Name RETURNING Contact.Name", "SELECT Name FROM Contact WHERE Account.Name == 'Acme'", "GET Contact.Name WHERE Account.Name = 'Acme'" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "An Apex class that makes an external callout to a web service must be marked as:",
+    "answers": [ "global", "public", "webservice", "future (callout=true)" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or False: Salesforce Lightning is the only available interface for Salesforce users as of the latest release.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which Salesforce product is designed primarily for customer service?",
+    "answers": [ "Sales Cloud", "Service Cloud", "Marketing Cloud", "Community Cloud" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What does CRM stand for?",
+    "answers": [ "Customer Retention Management", "Customer Relationship Management", "Customer Recruitment Management", "Customer Response Management" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Salesforce operates on which cloud computing model?",
+    "answers": [ "IaaS (Infrastructure as a Service)", "PaaS (Platform as a Service)", "SaaS (Software as a Service)", "DaaS (Data as a Service)" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "True or False: Salesforce Einstein is an artificial intelligence technology that provides analytics and recommendations across all Salesforce clouds.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which scenario is best suited for Salesforce Flow instead of Process Builder?",
+    "answers": [ "When updating a record that triggered the process", "For simple field updates based on record changes", "To create a complex, multi-step wizard with screens for user input", "To send an outbound message without code" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Which automation tool allows for looping through records without writing code?",
+    "answers": [ "Process Builder", "Workflow Rules", "Salesforce Flow", "Apex" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "When should you use Apex instead of Flow or Process Builder?",
+    "answers": [ "For any data manipulation", "When working with large data volumes where governor limits are a concern", "To send an email notification after a record is updated", "For creating a simple record-triggered automation" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What scenario requires Apex over Process Builder and Flow?",
+    "answers": [ "To integrate with an external system using callouts", "Automating email alerts for record changes", "Creating related records when a new record is added", "Updating parent record fields when a child record is modified" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which tool should you use to perform a field update on a related record when a record is created or updated?",
+    "answers": [ "Apex for complex logic beyond standard capabilities", "Process Builder, since it can handle related records", "Salesforce Flow, for its advanced capabilities and user interaction", "Workflow Rules, for their simplicity and efficiency" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "When is Apex not recommended for automation in Salesforce?",
+    "answers": [ "For integrations requiring callouts to external APIs", "When the solution can be achieved using declarative tools like Flow or Process Builder", "For sending email alerts based on record creation", "To create a series of dependent record updates" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What is the primary purpose of Salesforce Functions?",
+    "answers": [ "To provide a user interface for Salesforce applications", "To extend the Salesforce data schema with custom objects", "To execute complex business logic outside of the Salesforce core platform", "To enhance Salesforce security model" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Which of the following best describes the execution environment of Salesforce Functions?",
+    "answers": [ "Runs directly within Salesforce org's execution context", "Executes as a background process in Salesforce Lightning Experience", "Operates in a fully managed, serverless environment on Salesforce infrastructure", "Runs on the client-side within the Salesforce mobile app" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Salesforce Functions can be invoked by:",
+    "answers": [ "Direct user actions in the Salesforce UI", "Scheduled Apex jobs only", "Apex triggers, Flow, and external systems via REST API", "Manual execution by a system administrator" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "True or False: Salesforce Functions are automatically scalable according to the computing resources needed.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "What must be configured to allow a Salesforce Function to access Salesforce data?",
+    "answers": [ "OAuth authentication with a connected app", "A Visualforce page to host the function", "Direct database credentials in the function code", "An Apex class that encapsulates the function logic" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which of the following is NOT a use case for Salesforce Functions?",
+    "answers": [ "Real-time data synchronization with external systems", "Custom user interface components in Lightning Web Components", "Complex data processing and transformation tasks", "Integration with third-party APIs for enhanced functionality" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "True or False: Salesforce Functions support stateful execution, allowing the function to maintain state between executions.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which of the following can be used to enforce data quality? (Select all that apply)",
+    "answers": [ "Validation Rules", "Page Layouts", "Page Layouts", "Record Types", "Apex Triggers" ],
+    "correctAnswerIndex": [ 0, 3 ]
+  },
+  {
+    "questionText": "What is Visualforce primarily used for?",
+    "answers": [ "Creating complex database queries", "Developing custom user interfaces in Salesforce", "Modifying standard Salesforce object behaviors", "Implementing Apex Triggers" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which of the following is a characteristic of Lightning Web Components?",
+    "answers": [ "Uses Apex code for client-side interactions", "Built on standard web components model", "Requires Visualforce to render components", "Can only be used within the Salesforce Mobile App" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "How can a Lightning Aura Component communicate with a Lightning Web Component?",
+    "answers": [ "By using a Visualforce page as an intermediary", "Through application events only", "Using Lightning Message Service or events", "Direct method calls are always possible" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "True or False: Lightning Web Components (LWC) support two-way data binding directly in the template.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which Salesforce development technology allows for the closest control over the page's HTML output?",
+    "answers": [ "Lightning Web Components", "Lightning Aura Components", "Visualforce", "Apex" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "In which scenario would you choose to use Visualforce over Lightning Components?",
+    "answers": [ "When creating a highly interactive single-page application", "To leverage complex JavaScript libraries not supported in LWC", "For a page that needs to run in both Lightning Experience and Salesforce Classic", "When the UI must automatically adapt to mobile and desktop" ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Which feature is exclusive to Aura Components and not available in Lightning Web Components?",
+    "answers": [ "The ability to use Apex controllers", "Support for event-driven architecture", "Dynamic component creation in JavaScript", "Built-in support for two-way data binding" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or False: Lightning Web Components can be used within Visualforce pages.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "What mechanism do Lightning Web Components use for styling?",
+    "answers": [ "Visualforce Page Stylesheets", "External CSS files hosted on a third-party server", "Static resources for shared styles", "Scoped CSS specific to the component" ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "True or false: Salesforce functions run compute-heavy tasks that were challenging in your org, elastically scaling to meet the load.",
+    "answers": [ "True", "False" ],
+    "correctAnswerIndex": [ 0 ]
+  }
+]
