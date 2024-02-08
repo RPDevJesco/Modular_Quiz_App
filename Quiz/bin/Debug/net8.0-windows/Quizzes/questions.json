@@ -141,7 +141,7 @@
   },
   {
     "questionText": "Which of the following can be used to enforce data quality? (Select all that apply)",
-    "answers": [ "Validation Rules", "Page Layouts", "Page Layouts", "Record Types", "Apex Triggers" ],
+    "answers": [ "Validation Rules", "Page Layouts", "Custom Pages", "Record Types", "Apex Triggers" ],
     "correctAnswerIndex": [ 0, 3 ]
   },
   {

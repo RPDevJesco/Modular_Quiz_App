@@ -1,0 +1,22 @@
+﻿<Page x:Class="Quiz.pages.start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Quiz.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="start">
+
+    <StackPanel Margin="10">
+        <ComboBox x:Name="cmbQuizType" Margin="5" VerticalAlignment="Top">
+            <ComboBoxItem Content="Type 1"/>
+            <ComboBoxItem Content="Type 2"/>
+            <!-- Add more quiz types as needed -->
+        </ComboBox>
+        <TextBox x:Name="txtNumberOfQuestions" Margin="5" VerticalAlignment="Top" Text="Number of Questions"
+         Foreground="Gray" GotFocus="TxtNumberOfQuestions_GotFocus" LostFocus="TxtNumberOfQuestions_LostFocus"/>
+
+        <Button x:Name="btnStartQuiz" Content="Start Quiz" Margin="5" VerticalAlignment="Bottom" Click="BtnStartQuiz_Click"/>
+    </StackPanel>
+</Page>

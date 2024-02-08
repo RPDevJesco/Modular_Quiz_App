@@ -5,19 +5,23 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 
-namespace Quiz
+namespace Quiz.pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for quiz.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class quiz : Page
     {
         private List<Question> questions = new List<Question>();
         private int currentQuestionIndex = 0;
+        private string quizType;
+        private int numberOfQuestions;
 
-        public MainWindow()
+        public quiz(string quizType, int numberOfQuestions)
         {
             InitializeComponent();
+            this.quizType = quizType;
+            this.numberOfQuestions = numberOfQuestions;
             LoadQuestionsFromJson();
             DisplayCurrentQuestion();
         }
@@ -25,13 +29,18 @@ namespace Quiz
         private void LoadQuestionsFromJson()
         {
             string baseDir = Environment.CurrentDirectory;
-            // Combine the base directory with the name of your JSON file
-            string filePath = Path.Combine(baseDir, "questions.json");
+            string filePath = System.IO.Path.Combine(baseDir, "Quizzes/questions.json");
 
             if (File.Exists(filePath))
             {
                 string jsonData = File.ReadAllText(filePath);
-                questions = JsonConvert.DeserializeObject<List<Question>>(jsonData);
+                var allQuestions = JsonConvert.DeserializeObject<List<Question>>(jsonData);
+
+                // limit the number based on numberOfQuestions
+                questions = allQuestions
+                    .Take(numberOfQuestions)
+                    .ToList();
+
                 ShuffleQuestions(questions);
             }
             else
@@ -143,11 +152,13 @@ namespace Quiz
 
         private void GenerateScoreReport()
         {
+            // Assuming ResultsPage has a constructor that accepts the report string
+            StringBuilder report = new StringBuilder();
+
             int totalQuestions = questions.Count;
             int correctAnswers = questions.Count(q => q.IsCorrect == true);
             int incorrectAnswers = totalQuestions - correctAnswers;
 
-            StringBuilder report = new StringBuilder();
             report.AppendLine($"Total Questions: {totalQuestions}");
             report.AppendLine($"Correct Answers: {correctAnswers}");
             report.AppendLine($"Incorrect Answers: {incorrectAnswers}");
@@ -167,8 +178,7 @@ namespace Quiz
                 report.AppendLine();
             }
 
-            // Display or handle the report string as needed, e.g., show it in a MessageBox or a new window
-            MessageBox.Show(report.ToString(), "Quiz Results");
+            this.NavigationService.Navigate(new results(report.ToString()));
         }
     }
 }

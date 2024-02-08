@@ -13,7 +13,7 @@
         correctAnswerIndex = new List<int>();
     }
 
-    public Question(string questionText, List<string> answers, List<int> correctAnswerIndexes)
+    public Question(string questionText, List<string> answers, List<int> correctAnswerIndexes, string type)
     {
         QuestionText = questionText;
         Answers = answers;

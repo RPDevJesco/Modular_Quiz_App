@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\SourceTree\\Quiz\\Quiz\\Quiz.csproj",
+      "projectUniqueName": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Quiz.csproj",
       "projectName": "Quiz",
-      "projectPath": "E:\\Development\\SourceTree\\Quiz\\Quiz\\Quiz.csproj",
+      "projectPath": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Quiz.csproj",
       "packagesPath": "C:\\Users\\jglov\\.nuget\\packages\\",
-      "outputPath": "E:\\Development\\SourceTree\\Quiz\\Quiz\\obj\\",
+      "outputPath": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
