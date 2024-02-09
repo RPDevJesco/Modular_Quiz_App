@@ -61,9 +61,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Quiz.csproj",
-      "projectName": "Quiz",
-      "projectPath": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Quiz.csproj",
+      "projectUniqueName": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Modular_Quiz_App.csproj",
+      "projectName": "Modular_Quiz_App",
+      "projectPath": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\Modular_Quiz_App.csproj",
       "packagesPath": "C:\\Users\\jglov\\.nuget\\packages\\",
       "outputPath": "E:\\SourceTreeRepositories\\Salesforce_Quiz_App\\Quiz\\obj\\",
       "projectStyle": "PackageReference",

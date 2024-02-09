@@ -61,7 +61,7 @@ namespace Quiz {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Quiz;component/appwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Modular_Quiz_App;component/appwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AppWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
