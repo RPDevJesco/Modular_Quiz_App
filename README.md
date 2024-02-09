@@ -104,3 +104,9 @@ Conclusion
 The Quiz Application offers a straightforward and user-friendly platform for taking quizzes. Its modular design allows for easy maintenance and future enhancements, such as adding new question types or integrating with external data sources for quiz content.
 
 
+![image](https://github.com/RPDevJesco/Modular_Quiz_App/assets/8800044/547e20b2-dcf0-48a0-afc7-bc4e7615021d)
+
+![image](https://github.com/RPDevJesco/Modular_Quiz_App/assets/8800044/d2b9d8ec-ff9c-4183-9075-2ca9a4d672f1)
+
+![image](https://github.com/RPDevJesco/Modular_Quiz_App/assets/8800044/ff917f8f-1a59-4d9e-9d6e-f7a9273e8d4a)
+
