@@ -1,0 +1,52 @@
+[
+  {
+    "questionText": "What is the primary function of Salesforce CPQ?",
+    "answers": [
+      "To manage customer relationships and track sales leads",
+      "To automate and manage the quoting process",
+      "To support project management and team collaboration",
+      "To customize and develop new Salesforce applications"
+    ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "In Salesforce CPQ, what is a Product Rule used for?",
+    "answers": [
+      "To define discount schedules for products",
+      "To automate product selection and configuration",
+      "To enforce business logic during the quote configuration process",
+      "To track inventory levels of products"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "How does a Price Rule in Salesforce CPQ work?",
+    "answers": [
+      "By defining user roles and permissions",
+      "By customizing the Salesforce user interface",
+      "By automatically adjusting product prices based on predefined criteria",
+      "By updating product descriptions based on customer feedback"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "What is the purpose of using Quote Templates in Salesforce CPQ?",
+    "answers": [
+      "To define the structure of project management tasks",
+      "To automate the generation of project reports",
+      "To create standardized quote documents for customers",
+      "To customize the layout of the Salesforce dashboard"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Which feature in Salesforce CPQ allows for the bundling of products?",
+    "answers": [
+      "Product Options",
+      "Quote Line Editor",
+      "Bundle Configurations",
+      "Guided Selling"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  }
+]

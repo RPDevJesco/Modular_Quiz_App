@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -39,17 +41,23 @@ namespace Quiz.pages
                 // Extract file name without extension
                 var fileName = System.IO.Path.GetFileNameWithoutExtension(filePath);
 
-                // Exclude specific files by name
-                if (fileName.ToLower() != "quiz.deps" && fileName.ToLower() != "quiz.runtimeconfig")
-                {
-                    cmbQuizType.Items.Add(new ComboBoxItem { Content = fileName });
-                }
+                cmbQuizType.Items.Add(new ComboBoxItem { Content = fileName });
             }
 
             // Optionally, select the first item if you want to have a default selection
             if (cmbQuizType.Items.Count > 0)
             {
                 cmbQuizType.SelectedIndex = 0;
+            }
+        }
+
+        private void CmbQuizType_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedComboBoxItem = cmbQuizType.SelectedItem as ComboBoxItem;
+            if (selectedComboBoxItem != null)
+            {
+                string selectedQuizName = selectedComboBoxItem.Content.ToString();
+                UpdateNumberOfQuestionsTextBox(selectedQuizName);
             }
         }
 
@@ -70,6 +78,29 @@ namespace Quiz.pages
             {
                 textBox.Text = "Number of Questions";
                 textBox.Foreground = System.Windows.Media.Brushes.Gray; // Change text color to gray
+            }
+        }
+
+        private void UpdateNumberOfQuestionsTextBox(string quizName)
+        {
+            string baseDir = Environment.CurrentDirectory;
+            string filePath = System.IO.Path.Combine(baseDir, $"Quizzes/{quizName}.json");
+
+            if (File.Exists(filePath))
+            {
+                try
+                {
+                    string jsonData = File.ReadAllText(filePath);
+                    var questions = JsonConvert.DeserializeObject<List<Question>>(jsonData);
+                    if (questions != null)
+                    {
+                        txtNumberOfQuestions.Text = $"{questions.Count}"; // Update TextBox with the count
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Failed to load quiz questions: {ex.Message}");
+                }
             }
         }
     }

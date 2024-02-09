@@ -1,0 +1,52 @@
+[
+  {
+    "questionText": "What is the primary use of Salesforce Profiles?",
+    "answers": [
+      "To track user activities and performance metrics",
+      "To define user roles within the organization",
+      "To control access to data and applications based on the user's role",
+      "To customize the Salesforce UI for individual users"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "How can an administrator customize the Salesforce user interface for a specific group of users?",
+    "answers": [
+      "By creating a new user profile",
+      "By configuring page layouts and record types",
+      "By modifying organization-wide settings",
+      "By updating the Salesforce theme and branding"
+    ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What is the purpose of a Validation Rule in Salesforce?",
+    "answers": [
+      "To ensure data integrity by enforcing data entry standards",
+      "To validate user credentials during login",
+      "To check the performance of Salesforce reports",
+      "To confirm the successful execution of Apex code"
+    ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "Which feature allows Salesforce Admins to automate business processes?",
+    "answers": [
+      "Apex Triggers",
+      "Process Builder and Workflow Rules",
+      "Validation Rules",
+      "Custom Fields and Objects"
+    ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "What is the purpose of Salesforce Sandboxes?",
+    "answers": [
+      "To provide a secure environment for data storage",
+      "To serve as a backup for production data",
+      "To offer a development and testing environment separate from the production environment",
+      "To enhance the performance of the production environment"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  }
+]

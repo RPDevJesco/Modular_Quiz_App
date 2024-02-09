@@ -1,0 +1,52 @@
+[
+  {
+    "questionText": "Which Salesforce development model allows for declarative customization?",
+    "answers": [
+      "Apex programming",
+      "Lightning Components",
+      "Process Builder and Flows",
+      "Visualforce pages"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "What is the purpose of Apex in Salesforce?",
+    "answers": [
+      "To customize the user interface",
+      "To automate complex business processes",
+      "To integrate Salesforce with external systems",
+      "To execute flow and transaction control statements on the Salesforce platform"
+    ],
+    "correctAnswerIndex": [ 3 ]
+  },
+  {
+    "questionText": "How can a developer expose a Salesforce Apex class as a REST Web service?",
+    "answers": [
+      "By using the @RestResource annotation at the class level",
+      "By creating a Visualforce page",
+      "By configuring a Workflow Rule",
+      "By using the @HttpCallout annotation"
+    ],
+    "correctAnswerIndex": [ 0 ]
+  },
+  {
+    "questionText": "What is a Governor Limit in Salesforce?",
+    "answers": [
+      "A limit on the amount of data storage available",
+      "A runtime limit enforced by the Apex runtime engine",
+      "A security feature that limits user permissions",
+      "A restriction on the number of users in an org"
+    ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "Which tool is used for Salesforce metadata deployment?",
+    "answers": [
+      "Data Loader",
+      "Workbench",
+      "Change Sets",
+      "Ant Migration Tool"
+    ],
+    "correctAnswerIndex": [ 3 ]
+  }
+]

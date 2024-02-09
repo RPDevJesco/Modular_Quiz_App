@@ -9,11 +9,7 @@
       Title="start">
 
     <StackPanel Margin="10">
-        <ComboBox x:Name="cmbQuizType" Margin="5" VerticalAlignment="Top">
-            <ComboBoxItem Content="Type 1"/>
-            <ComboBoxItem Content="Type 2"/>
-            <!-- Add more quiz types as needed -->
-        </ComboBox>
+        <ComboBox x:Name="cmbQuizType" Margin="5" VerticalAlignment="Top" SelectionChanged="CmbQuizType_SelectionChanged"></ComboBox>
         <TextBox x:Name="txtNumberOfQuestions" Margin="5" VerticalAlignment="Top" Text="Number of Questions"
          Foreground="Gray" GotFocus="TxtNumberOfQuestions_GotFocus" LostFocus="TxtNumberOfQuestions_LostFocus"/>
 

@@ -1,0 +1,52 @@
+[
+  {
+    "questionText": "What is the primary goal of Salesforce Health Cloud?",
+    "answers": [
+      "To manage and analyze customer sales data",
+      "To provide comprehensive project management tools",
+      "To deliver personalized patient care and improve healthcare outcomes",
+      "To automate marketing campaigns for healthcare organizations"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "Which feature of Salesforce Health Cloud provides a complete view of the patient's health journey?",
+    "answers": [
+      "EHR Integration",
+      "Patient 360",
+      "Health Cloud Einstein",
+      "Care Plan Templates"
+    ],
+    "correctAnswerIndex": [ 1 ]
+  },
+  {
+    "questionText": "How does Salesforce Health Cloud support interoperability in healthcare?",
+    "answers": [
+      "By providing tools for social media marketing",
+      "By offering project management features",
+      "By enabling integration with electronic health record (EHR) systems",
+      "By supporting the development of custom healthcare applications"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "What is the purpose of Care Plans in Salesforce Health Cloud?",
+    "answers": [
+      "To schedule marketing campaigns for healthcare services",
+      "To manage sales leads in the healthcare industry",
+      "To outline personalized care management strategies for patients",
+      "To track the performance of healthcare staff"
+    ],
+    "correctAnswerIndex": [ 2 ]
+  },
+  {
+    "questionText": "How can Salesforce Health Cloud help in managing patient referrals?",
+    "answers": [
+      "By automating the process of sending and receiving patient referrals between providers",
+      "By tracking the sales performance of healthcare products",
+      "By providing templates for healthcare marketing materials",
+      "By managing inventory levels of medical supplies"
+    ],
+    "correctAnswerIndex": [ 0 ]
+  }
+]

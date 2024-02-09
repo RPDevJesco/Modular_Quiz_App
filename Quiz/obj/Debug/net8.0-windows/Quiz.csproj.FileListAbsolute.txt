@@ -52,3 +52,7 @@ E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\obj\Debug\net8.0-windows\page
 E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\obj\Debug\net8.0-windows\pages\results.baml
 E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\obj\Debug\net8.0-windows\pages\start.baml
 E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\bin\Debug\net8.0-windows\Quizzes\questions.json
+E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\bin\Debug\net8.0-windows\Quizzes\salesforce_admin.json
+E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\bin\Debug\net8.0-windows\Quizzes\salesforce_cpq.json
+E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\bin\Debug\net8.0-windows\Quizzes\salesforce_developer.json
+E:\SourceTreeRepositories\Salesforce_Quiz_App\Quiz\bin\Debug\net8.0-windows\Quizzes\salesforce_health_cloud.json
